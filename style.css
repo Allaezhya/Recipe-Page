@@ -105,3 +105,40 @@ h2 {
 li::marker {
 	color: hsl(14, 45%, 36%);
 }
+
+.nutrition {
+	margin-bottom: 0;
+}
+
+.nutrient {
+	padding-top: 30px;
+	margin: 0;
+}
+
+.nutrient-list {
+	margin-bottom: 10px;
+}
+
+h4 {
+	float: left;
+	font-family: "Outfit";
+	font-weight: 600;
+	color: hsl(30, 10%, 34%);
+	padding-left: 35px;
+	opacity: 60%;
+}
+
+.calories {
+	padding-left: 53%;
+	font-family: "Outfit";
+	font-weight: 700;
+	color: hsl(14, 45%, 36%);
+	opacity: 100%;
+}
+
+hr {
+	margin-bottom: 10px;
+	width: 630px;
+	opacity: 30%;
+	color: hsl(30, 54%, 90%);
+}
