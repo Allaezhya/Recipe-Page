@@ -4,8 +4,10 @@
 	}
 
 	.card {
+		background-color: white;
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
+		align-items: center;
 		width: 375px;
 		margin: 0;
 		border-radius: 0;
@@ -15,5 +17,18 @@
 	img {
 		width: 375px;
 		border-radius: 0;
+	}
+
+	header,
+	section {
+		padding: 1em;
+	}
+
+	h1 {
+		line-height: 1em;
+	}
+
+	p {
+		font-size: 1.1em;
 	}
 }

@@ -12,19 +12,20 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: hsl(30, 18%, 87%);
 }
 
 .container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: hsl(30, 18%, 87%);
 }
 
 .card {
 	display: flex;
-	justify-content: center;
-	align-items: flex-start;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
 	background-color: white;
 	height: 200vh;
 	width: 45em;
@@ -37,4 +38,19 @@ img {
 	width: 40em;
 	border-radius: 0.6em;
 	margin-bottom: 2em;
+}
+
+header,
+section {
+	margin-bottom: 2.5em;
+}
+
+h1 {
+	font: 400 2.4em/1.5em "Young Serif";
+	margin-bottom: 1rem;
+}
+
+p {
+	font: 400 1em/1.5em "Outfit";
+	opacity: 60%;
 }
