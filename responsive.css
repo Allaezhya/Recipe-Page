@@ -1,0 +1,43 @@
+@media (max-width: 376px) {
+	.container {
+		display: unset;
+	}
+
+	.card {
+		background-color: white;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 375px;
+		margin: 0;
+		border-radius: 0;
+		padding: 0;
+	}
+
+	img {
+		width: 375px;
+		border-radius: 0;
+	}
+
+	header,
+	section {
+		padding: 1em;
+	}
+
+	h1 {
+		line-height: 1em;
+	}
+
+	p {
+		font-size: 1.1em;
+	}
+
+	.preparation-card {
+		padding: 2em 2.5em;
+	}
+
+	li {
+		padding-left: 1.3em;
+		font-size: 1.2em;
+	}
+}
