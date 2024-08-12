@@ -24,7 +24,7 @@
 .card {
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
 	flex-direction: column;
 	background-color: white;
 	height: 200vh;
@@ -45,6 +45,26 @@ section {
 	margin-bottom: 2.5em;
 }
 
+li::marker {
+	color: hsl(14, 45%, 36%);
+	font-size: 0.8em;
+}
+
+li {
+	font: 400 1em "Outfit";
+	color: hsl(30, 10%, 34%);
+	margin-bottom: 1em;
+	padding-left: 1em;
+}
+
+ul {
+	padding-left: 1em;
+}
+
+h2 {
+	color: hsl(14, 45%, 36%);
+}
+
 h1 {
 	font: 400 2.4em/1.5em "Young Serif";
 	margin-bottom: 1rem;
@@ -52,5 +72,22 @@ h1 {
 
 p {
 	font: 400 1em/1.5em "Outfit";
-	opacity: 60%;
+	color: hsl(30, 10%, 34%);
+	opacity: 80%;
+}
+
+.preparation-card {
+	background-color: hsl(330, 100%, 98%);
+	width: 100%;
+	padding: 1.3em 2em;
+}
+
+h3 {
+	color: hsl(332, 51%, 32%);
+	font: 600 1.3em "Outfit";
+	margin-bottom: 1em;
+}
+
+.preparation-list > li::marker {
+	color: hsl(332, 51%, 32%);
 }
