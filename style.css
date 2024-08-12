@@ -24,10 +24,17 @@
 .card {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	background-color: white;
 	height: 200vh;
 	width: 45em;
 	margin: 5em 0;
 	border-radius: 1.3em;
+	padding: 2.5em;
+}
+
+img {
+	width: 40em;
+	border-radius: 0.6em;
+	margin-bottom: 2em;
 }

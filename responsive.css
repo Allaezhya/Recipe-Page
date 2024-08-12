@@ -4,6 +4,16 @@
 	}
 
 	.card {
-		display: unset;
+		display: flex;
+		justify-content: center;
+		width: 375px;
+		margin: 0;
+		border-radius: 0;
+		padding: 0;
+	}
+
+	img {
+		width: 375px;
+		border-radius: 0;
 	}
 }
