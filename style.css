@@ -8,6 +8,77 @@
 	src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
+@media (max-width: 376px) {
+	/* Main style */
+	.container {
+		max-width: 375px;
+		margin: 0 auto;
+	}
+
+	.card {
+		max-width: 375px;
+	}
+
+	img {
+		width: 376px;
+		height: 180px;
+	}
+
+	.description {
+		margin-bottom: 15px;
+		font-weight: 400;
+		color: hsl(30, 10%, 34%);
+		opacity: 70%;
+	}
+
+	.preparation {
+		background-color: hsl(330, 100%, 98%);
+		padding: 20px;
+	}
+
+	h3 {
+		font-size: 20px;
+		font-weight: 600;
+		margin-bottom: 15px;
+		color: hsl(332, 51%, 32%);
+	}
+
+	li {
+		padding-left: 20px;
+		font-size: 1.04em;
+		margin-bottom: 15px;
+		color: hsl(30, 10%, 34%);
+	}
+
+	.preparation-list > li::marker {
+		color: hsl(332, 51%, 32%);
+	}
+
+	section > .description {
+		opacity: 100%;
+		font-size: 17px;
+		margin-bottom: 25px;
+	}
+
+	h4 {
+		float: left;
+		padding-left: 30px;
+		font-size: 18px;
+		color: hsl(30, 10%, 34%);
+	}
+
+	section > hr {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.calories {
+		margin-left: 175px;
+		font-weight: 600;
+		color: hsl(14, 45%, 36%);
+	}
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -136,10 +207,6 @@ table {
 }
 
 /* For Default Style */
-.card {
-	background-color: white;
-}
-
 h1,
 h2 {
 	font-family: "Young Serif";
@@ -190,74 +257,24 @@ li::marker {
 	font-size: 14px;
 }
 
-@media (max-width: 376px) {
-	/* Main style */
-	.container {
-		max-width: 375px;
-		margin: 0 auto;
-	}
+/* asdf */
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
 
-	.card {
-		max-width: 375px;
-		padding: 30px;
-	}
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	width: 40em;
+}
 
-	img {
-		width: 376px;
-		height: 180px;
-	}
-
-	.description {
-		margin-bottom: 15px;
-		font-weight: 400;
-		color: hsl(30, 10%, 34%);
-		opacity: 70%;
-	}
-
-	.preparation {
-		background-color: hsl(330, 100%, 98%);
-		padding: 20px;
-	}
-
-	h3 {
-		font-size: 20px;
-		font-weight: 600;
-		margin-bottom: 15px;
-		color: hsl(332, 51%, 32%);
-	}
-
-	li {
-		padding-left: 20px;
-		font-size: 1.04em;
-		margin-bottom: 15px;
-		color: hsl(30, 10%, 34%);
-	}
-
-	.preparation-list > li::marker {
-		color: hsl(332, 51%, 32%);
-	}
-
-	section > .description {
-		opacity: 100%;
-		font-size: 17px;
-		margin-bottom: 25px;
-	}
-
-	h4 {
-		float: left;
-		padding-left: 30px;
-		font-size: 18px;
-		color: hsl(30, 10%, 34%);
-	}
-
-	section > hr {
-		margin: 0;
-		margin-bottom: 20px;
-	}
-
-	.calories {
-		margin-left: 175px;
-		font-weight: 600;
-		color: hsl(14, 45%, 36%);
-	}
+img {
+	width: 375px;
 }
