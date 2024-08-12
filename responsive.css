@@ -1,6 +1,7 @@
 @media (max-width: 376px) {
 	.container {
 		display: unset;
+		padding: 0;
 	}
 
 	.card {
@@ -34,6 +35,8 @@
 
 	.preparation-card {
 		padding: 2em 2.5em;
+		width: 90%;
+		margin: 0 auto;
 	}
 
 	li {
