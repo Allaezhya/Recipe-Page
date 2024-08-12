@@ -118,10 +118,7 @@ section {
 body {
 	line-height: 1;
 }
-ol,
-ul {
-	list-style: none;
-}
+
 blockquote,
 q {
 	quotes: none;
@@ -143,6 +140,7 @@ table {
 	h2 {
 		font-family: "Young Serif";
 		font-weight: 400;
+		margin-bottom: 30px;
 	}
 
 	p,
@@ -151,6 +149,14 @@ table {
 	h3 {
 		font-family: "Outfit";
 		line-height: 1.5em;
+	}
+
+	strong {
+		font-weight: 600;
+	}
+
+	.indent {
+		padding-left: 20px;
 	}
 
 	.container {
@@ -178,7 +184,6 @@ table {
 
 	h1 {
 		font-size: 36px;
-		margin-bottom: 20px;
 	}
 
 	.description {
@@ -187,5 +192,32 @@ table {
 		font-weight: 400;
 		color: hsl(30, 10%, 34%);
 		opacity: 70%;
+	}
+
+	section {
+		margin-bottom: 35px;
+	}
+
+	.preparation {
+		background-color: hsl(330, 100%, 98%);
+		padding: 20px;
+	}
+
+	h3 {
+		font-size: 20px;
+		font-weight: 600;
+		margin-bottom: 15px;
+		color: hsl(332, 51%, 32%);
+	}
+
+	li {
+		padding-left: 20px;
+		font-size: 18px;
+		margin-bottom: 15px;
+		color: hsl(30, 10%, 34%);
+	}
+
+	.preparation-list > li::marker {
+		color: hsl(332, 51%, 32%);
 	}
 }
