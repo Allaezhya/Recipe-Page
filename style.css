@@ -209,7 +209,6 @@ li::marker {
 
 	.description {
 		margin-bottom: 15px;
-		font: 16px;
 		font-weight: 400;
 		color: hsl(30, 10%, 34%);
 		opacity: 70%;
@@ -238,5 +237,27 @@ li::marker {
 		color: hsl(332, 51%, 32%);
 	}
 
-	
+	section > .description {
+		opacity: 100%;
+		font-size: 17px;
+		margin-bottom: 25px;
+	}
+
+	h4 {
+		float: left;
+		padding-left: 30px;
+		font-size: 18px;
+		color: hsl(30, 10%, 34%);
+	}
+
+	section > hr {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.calories {
+		margin-left: 175px;
+		font-weight: 600;
+		color: hsl(14, 45%, 36%);
+	}
 }
