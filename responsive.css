@@ -43,4 +43,16 @@
 		padding-left: 1.3em;
 		font-size: 1.1em;
 	}
+
+	.nutrient-description {
+		font-size: 1em;
+	}
+
+	.per-serving {
+		padding-left: 53%;
+	}
+
+	.nutrient-divider {
+		width: 100%;
+	}
 }
